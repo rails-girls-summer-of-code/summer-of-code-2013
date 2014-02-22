@@ -24,7 +24,7 @@ Donations = function(table, pagination) {
 
 $.extend(Donations, {
   URLS: {
-    production:  'http://campaign.railsgirlssummerofcode.org/donations.json',
+    production:  'http://2013.campaign.railsgirlssummerofcode.org/donations.json',
     development: 'http://localhost:3000/donations.json'
   },
   COUNT: 50
@@ -204,7 +204,7 @@ Stats = function(element) {
 
 $.extend(Stats, {
   URLS: {
-    production:  'http://campaign.railsgirlssummerofcode.org/donations/stats.json',
+    production:  'http://2013.campaign.railsgirlssummerofcode.org/donations/stats.json',
     development: 'http://localhost:3000/donations/stats.json'
   },
   COUNT: 100
