@@ -377,7 +377,7 @@ a.button {
 }
 
 a.mainbutton {
-  font-size: 1.8em; 
+  font-size: 1.8em;
 }
 
 a.button {
@@ -789,6 +789,15 @@ ul.donation-plans a.button:active {
 }
 .sponsors-logo {
   padding: 1em 0;
+}
+.conferences-list ul {
+  margin-top: 2em;
+}
+.conferences-list li {
+  list-style-type: none;
+}
+.conferences-list li a {
+  border: 1px solid #ccc;
 }
 
 
